@@ -10,6 +10,8 @@ net.createServer(function (s) {
     });
 }).listen(port);
 
+console.log('start listening on port ' + port);
+console.log('remote url: ' + url);
 
 process.on('uncaughtException', function (err) {
     console.log('[Error catched by process]' + err);
