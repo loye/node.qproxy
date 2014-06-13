@@ -1,7 +1,7 @@
 var net = require('net'),
     http = require('http'),
-    io = require('socket.io_tunnel'),
     ios = require('socket.io'),
+    io = require('./lib/socket.io_tunnel'),
     proxy = require('./lib/proxy_tunnel');
 
 var port = process.env.port || 1337;

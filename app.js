@@ -1,11 +1,14 @@
 ﻿var net = require('net'),
-    io = require('socket.io_tunnel');
+    io = require('./lib/socket.io_tunnel');
+
+var url = 'http://localhost:1337';
+var port = 2000;
 
 net.createServer(function (s) {
-    io.connect('http://localhost:1337', { forceNew: true }).on('connect', function (t) {
+    io.connect(url, { forceNew: true }).on('connect', function (t) {
         s.pipe(t).pipe(s);
     });
-}).listen(2000);
+}).listen(port);
 
 
 process.on('uncaughtException', function (err) {

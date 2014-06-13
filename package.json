@@ -1,0 +1,14 @@
+{
+  "name": "qproxy",
+  "version": "1.0.0",
+  "description": "qproxy",
+  "main": "server.js",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+   "dependencies": {
+    "socket.io": "^1.0.4",
+    "socket.io-client": "^1.0.4"
+  }
+}
