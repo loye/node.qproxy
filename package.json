@@ -1,14 +1,17 @@
 {
   "name": "qproxy",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "qproxy",
   "main": "server.js",
   "author": {
     "name": "",
     "email": ""
   },
-   "dependencies": {
-    "socket.io": "^1.0.4",
-    "socket.io-client": "^1.0.4"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loye/node.QProxy.git"
+  },
+  "dependencies": {
+    "ws": "0.4.31"
   }
 }
