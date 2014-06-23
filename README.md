@@ -11,4 +11,3 @@ nodejs socks4/5, http proxy based on websocket
    include all the below files:
    ./app.js
    ./lib/ws-stream.js
-   ./lib/simple_crypto.js

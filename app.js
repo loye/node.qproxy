@@ -1,7 +1,7 @@
 ﻿var net = require('net'),
     wss = require('./lib/ws-stream');
 
-var url = 'http://localhost:1337';
+var url = 'ws://localhost:1337';
 var port = 2000;
 
 net.createServer(function (s) {
