@@ -5,7 +5,7 @@ var url = 'ws://localhost:1337';
 var port = 2000;
 
 net.createServer(function (s) {
-    wss.connect(url).on('connect', function (t) {
+    wss.connect(url).on('connection', function (t) {
         s.pipe(t).pipe(s);
     });
 }).listen(port);
