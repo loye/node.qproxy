@@ -1,17 +1,17 @@
 {
   "name": "qproxy",
-  "version": "0.2.0",
   "description": "qproxy",
+  "version": "0.2.1",
   "main": "server.js",
-  "author": {
-    "name": "",
-    "email": ""
-  },
+  "author": "Lijian Qiu",
+  "keywords": ["proxy", "http", "socks4", "socks5"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/loye/node.QProxy.git"
+    "url": "https://github.com/loye/node.qproxy.git"
   },
+  "license": "MIT",
   "dependencies": {
-    "ws": "0.4.31"
+    "proxy.stream": "*",
+    "ws.stream": "*"
   }
 }

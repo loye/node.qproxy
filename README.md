@@ -1,13 +1,10 @@
-node.QProxy
+node.qproxy
 ===========
 
-nodejs socks4/5, http proxy based on websocket
+It's a nodejs socks4/5, http proxy based on WebSocket.
+It helps you ignore GFW, if you have server deployed it with SSL encrypted WebSocket.
 
 1. Deploy server.js to web server with websocket supported.
-   include all the below files:
-   ./server.js
-   ./lib/*
+   (dependence on module "proxy.stream" and "ws.stream".)
 2. Run app.js on local computer. (Change the url in app.js to the web site which deployed server.js.)
-   include all the below files:
-   ./app.js
-   ./lib/ws-stream.js
+   (dependence on module "ws.stream".)
