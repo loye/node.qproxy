@@ -6,4 +6,4 @@ RUN npm install pm2 -g \
 	
 EXPOSE 1443
 
-CMD ["pm2-docker", "start", "server-full.js", "--name", "proxy"]
+CMD ["pm2-docker", "start", "server-full.js"]
