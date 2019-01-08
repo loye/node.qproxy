@@ -2,7 +2,6 @@ node.qproxy
 ===========
 
 It's a nodejs socks4/5, http proxy based on WebSocket.
-It helps you ignore GFW, if you have server deployed it with SSL encrypted WebSocket.
 
 1. Deploy server.js to web server with websocket supported.
    (dependence on module "proxy.stream" and "ws.stream".)
